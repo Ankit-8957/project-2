@@ -1,0 +1,83 @@
+html{
+    /* position: relative; */
+}
+body{
+    position: relative;
+    width: 701px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0px 75px;
+}
+.Home-section{
+    
+    position: relative;
+    width: 105px;
+}
+.Home-section p {
+   
+    font-size: 13px;
+    width: 400px;
+   
+}
+.Home-section::before{
+    height: 100%;
+    top: -100px;
+}
+#navbar{
+    display: inline-block;
+    width: 100%;
+    top: -10px;
+    position: relative; 
+}
+.component{
+    /* flex-direction: column; */
+    width: 500px;
+    top: 0px;
+}
+.Services{
+    flex-direction: column;
+}
+.primary{
+    font-size: 2rem;
+    width: 400px;
+}
+#client-section {
+    display: inline-block;
+    position: relative;
+    /* margin-left: -152px; */
+    width: 960px;
+  
+    margin-top: 2px;
+}
+    /* margin-right: -20px;
+}
+
+#Contact{
+    /* display: flex;
+    position: relative;
+    height: 488px;
+    /* bottom: -122px; */
+    /* flex-direction: column; */
+    /* width: 100%;
+    margin-top: 3px;
+} */
+#Contact{
+    display: inline-block;
+    position: relative;
+    height: 470px;
+    width: 960px;
+}
+#Contact::before {
+   left: 0px; 
+   right: 0px;
+}
+.second-section{
+    display: inline-block;
+    width: 100%;
+    margin: auto;  
+}
+.center{
+    width: 960px;
+}
